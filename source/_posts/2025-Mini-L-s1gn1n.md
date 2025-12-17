@@ -6,10 +6,10 @@ tags: CTF
 # 2025 Mini-L s1gn1n
 ## 静态流程分析
 我们打开start入口点，找到主函数，发现这里主要进行判断的函数是sub_F914D0  
-![判断核心](\images\CTF\2025_Mini-L_s1gn1n\1762577690-823570-image.png)
+![判断核心](/images/CTF/2025_Mini-L_s1gn1n/1762577690-823570-image.png)
 那么最后的返回值必须是0  
 我们来看函数处理  
-![函数处理](\images\CTF\2025_Mini-L_s1gn1n\1762577716-295074-image-1.png)
+![函数处理](/images/CTF/2025_Mini-L_s1gn1n/1762577716-295074-image-1.png)
 我们用findCrypt可以找到这里存在一个base64加密函数，  
 看看加密的字符串，v9是上面处理出来的，我们再逆向往上看，sub_F91470  
 Emm,,这个左中右嵌套，很像是二叉树遍历啊  
