@@ -2,8 +2,8 @@
 title: CTF HitCTF ComplexVM
 date: 2025-12-17 19:46:24
 tags: CTF
+categories: CTF
 ---
-# HitCTF ComplexVM 复盘
 ## 前言
 我觉得这道题挺适合作为vm入门的，尝试一下脑海中的方法
 ## 第一部分，乱序比较

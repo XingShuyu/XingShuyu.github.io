@@ -2,8 +2,8 @@
 title: CTF Flare-on 2015 Challenge4
 date: 2025-12-17 17:54:56
 tags: CTF
+categories: CTF
 ---
-# CTF Flare-on 2015 Challenge4
 ## 动态脱壳
 ### UPX加密找OEP
 UPX加密，打开后会是一段自解压的SMC(self modifying code)。  

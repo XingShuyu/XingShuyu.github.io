@@ -2,8 +2,8 @@
 title: 2025 Mini-L s1gn1n
 date: 2025-12-17 19:50:21
 tags: CTF
+categories: CTF
 ---
-# 2025 Mini-L s1gn1n
 ## 静态流程分析
 我们打开start入口点，找到主函数，发现这里主要进行判断的函数是sub_F914D0  
 ![判断核心](/images/CTF/2025_Mini-L_s1gn1n/1762577690-823570-image.png)
