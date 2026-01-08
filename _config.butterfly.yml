@@ -348,7 +348,7 @@ aside:
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
   card_webinfo:
-    enable: true
+    enable: false
     post_count: true
     last_push_date: true
     sort_order:
@@ -456,7 +456,7 @@ busuanzi:
 math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
-  use:
+  use: katex
   per_page: true
   hide_scrollbar: false
 
@@ -970,7 +970,7 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: flat
+  style: disabled
   icons: true
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
