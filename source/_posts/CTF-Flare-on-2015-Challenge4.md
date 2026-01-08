@@ -3,6 +3,7 @@ title: CTF Flare-on 2015 Challenge4
 date: 2025-12-17 17:54:56
 tags: CTF
 categories: CTF
+cover: /images/CTF/Flare-on_2015_Challenge4/cover.png
 ---
 ## 动态脱壳
 ### UPX加密找OEP

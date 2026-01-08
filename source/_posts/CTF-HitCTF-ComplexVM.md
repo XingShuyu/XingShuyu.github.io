@@ -3,6 +3,7 @@ title: CTF HitCTF ComplexVM
 date: 2025-12-17 19:46:24
 tags: CTF
 categories: CTF
+cover: /images/CTF/CTF_HitCTF_ComplexVM/cover.jpg
 ---
 ## 前言
 我觉得这道题挺适合作为vm入门的，尝试一下脑海中的方法

@@ -3,6 +3,7 @@ title: 2025 Mini-L s1gn1n
 date: 2025-12-17 19:50:21
 tags: CTF
 categories: CTF
+cover: /images/CTF/2025_Mini-L_s1gn1n/cover.png
 ---
 ## 静态流程分析
 我们打开start入口点，找到主函数，发现这里主要进行判断的函数是sub_F914D0  
@@ -37,8 +38,10 @@ Emm,,这个左中右嵌套，很像是二叉树遍历啊
     }
     //  X1JLRjFfbmlkZ197MG5GaV9pQGVycnRMfTNzM21ucmlDZ2VubkV2X1RJRXM=
     // //dec[] = "_RKF1_nidg_{0nFi_i@errtL}3s3mnriCgennEv_TIEs"
-```  
+```
+
 之后我们先不考虑直接二叉树逆向回去，我们已经知道输入的总字数是44，我们用原来的程序看一下，44个字符二叉树排序结果是什么：
+
 ```Text
 abcdefghigklmnopqrstuvwxyzABCDEFGHIGKLMNOPQR
 ```
